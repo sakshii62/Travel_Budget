@@ -1,0 +1,94 @@
+/* ---------- Hero banner (gradient is set inline from destination colors) ---------- */
+.details-hero {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  color: #fff;
+  border-radius: 24px;
+  padding: 36px;
+  margin-bottom: 26px;
+}
+.details-emoji {
+   font-size: 5rem; 
+  }
+
+.details-hero h1 { 
+  font-size: 2.3rem;
+ }
+.details-hero p {
+   opacity: 0.92; 
+   max-width: 520px;
+   }
+
+/* ---------- Two column layout ---------- */
+.details-layout { 
+  display: grid; 
+  grid-template-columns: 2fr 1fr; 
+  gap: 22px; 
+}
+
+.info-grid { 
+  display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   gap: 14px; 
+   margin-bottom: 22px; 
+  }
+.info-box {
+   background: var(--primary-soft);
+   border-radius: 14px;
+   padding: 14px; 
+   text-align: center; 
+    }
+
+.info-box span { 
+  display: block; 
+  font-size: 0.78rem; 
+  color: var(--muted);
+ }
+.info-box strong {
+   color: var(--primary-dark); 
+  }
+
+/* ---------- Attractions ---------- */
+.attraction-list { 
+  display: flex;
+   flex-direction: column; 
+   gap: 10px; 
+   margin-top: 14px; 
+  }
+
+.attraction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+}
+
+/* ---------- Cost estimate ---------- */
+.cost-line { 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 8px 0; 
+  border-bottom: 1px dashed var(--border);
+ }
+.cost-total { 
+  display: flex; 
+  justify-content: space-between; 
+  padding-top: 12px;
+   font-size: 1.15rem; 
+   font-weight: 800; 
+   color: var(--primary-dark); 
+  }
+
+/* ---------- Weather card ---------- */
+.weather-card { 
+  background: linear-gradient(135deg, var(--primary), #0ea5e9); color: #fff;
+ }
+.weather-card .muted { 
+  color: rgba(255, 255, 255, 0.8);
+ }
+.weather-icon { 
+  font-size: 2.8rem; 
+}

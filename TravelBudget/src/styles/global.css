@@ -1,0 +1,166 @@
+/* ---------- Colors (change here to re-theme the whole app) ---------- */
+:root {
+  --primary: #0f766e;
+  --primary-dark: #115e59;
+  --primary-soft: #ccfbf1;
+  --accent: #f97316;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: #e2e8f0;
+  --danger: #dc2626;
+  --success: #16a34a;
+  --radius: 16px;
+  --shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+}
+
+/* ---------- Base ---------- */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+h1, h2, h3, p { margin: 0; }
+h2 { font-size: 1.6rem; margin-bottom: 6px; }
+a { color: inherit; }
+
+.page { max-width: 1150px; margin: 0 auto; padding: 28px 18px; min-height: 75vh; }
+.page-header { margin-bottom: 24px; }
+.muted { color: var(--muted); }
+.small { font-size: 0.82rem; }
+.full { width: 100%; text-align: center; }
+.text-danger { color: var(--danger); }
+.text-success { color: var(--success); }
+.section-title { margin-bottom: 18px; }
+
+/* ---------- Layout helpers ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+.stack { display: flex; flex-direction: column; gap: 14px; }
+.row { display: flex; align-items: center; gap: 12px; }
+.between { justify-content: space-between; }
+
+/* ---------- Card ---------- */
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-block;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.btn:hover { background: var(--primary-dark); transform: translateY(-1px); }
+.btn-accent { background: var(--accent); }
+.btn-accent:hover { background: #ea580c; }
+.btn-outline { background: transparent; color: var(--primary); border: 2px solid var(--primary); }
+.btn-outline:hover { background: var(--primary); color: #fff; }
+.btn-light { background: #fff; color: var(--primary-dark); }
+.btn-light:hover { background: var(--primary-soft); }
+.btn-danger { background: var(--danger); }
+.btn-danger:hover { background: #b91c1c; }
+.btn-small { padding: 6px 14px; font-size: 0.85rem; }
+
+/* ---------- Badge ---------- */
+.badge {
+  display: inline-block;
+  background: var(--primary-soft);
+  color: var(--primary-dark);
+  padding: 3px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+/* ---------- Form fields ---------- */
+.form { display: flex; flex-direction: column; gap: 14px; }
+.form-group { display: flex; flex-direction: column; gap: 6px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+label { font-size: 0.85rem; font-weight: 600; color: var(--muted); }
+
+input, select, textarea {
+  width: 100%;
+  font: inherit;
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 12px;
+  background: #fff;
+  color: var(--text);
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+
+/* ---------- Progress bar ---------- */
+.bar { height: 10px; background: var(--border); border-radius: 999px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--primary); border-radius: 999px; transition: width 0.4s; }
+.bar-fill.warn { background: var(--accent); }
+.bar-fill.over { background: var(--danger); }
+
+/* ---------- Loader ---------- */
+.loader { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 60px 0; }
+.spinner {
+  width: 42px; height: 42px;
+  border: 4px solid var(--primary-soft);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- Small round delete button ---------- */
+.icon-btn {
+  background: #fee2e2; color: var(--danger);
+  border: none; width: 30px; height: 30px; border-radius: 50%;
+  cursor: pointer; font-size: 0.9rem;
+}
+.icon-btn:hover { background: var(--danger); color: #fff; }
+
+/* ---------- Empty state ---------- */
+.empty-state {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fff;
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+}
+.empty-state .emoji { font-size: 3rem; display: block; margin-bottom: 10px; }
+.empty-state .btn { margin-top: 14px; }
+
+/* ---------- 404 page ---------- */
+.not-found { text-align: center; padding: 70px 0; }
+.not-found h1 { font-size: 6rem; color: var(--primary); line-height: 1; }
+.not-found p { margin: 10px 0 20px; color: var(--muted); }
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  padding: 22px;
+  color: var(--muted);
+  border-top: 1px solid var(--border);
+  background: #fff;
+}

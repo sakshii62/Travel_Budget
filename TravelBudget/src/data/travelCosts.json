@@ -1,0 +1,122 @@
+
+{
+  "goa": {
+    "flight": 6000,
+    "stayPerNight": 3000,
+    "foodPerDay": 1200,
+    "transportPerDay": 800,
+    "activitiesPerDay": 1500
+  },
+  "manali": {
+    "flight": 8000,
+    "stayPerNight": 2500,
+    "foodPerDay": 1000,
+    "transportPerDay": 1200,
+    "activitiesPerDay": 1500
+  },
+  "jaipur": {
+    "flight": 5000,
+    "stayPerNight": 2800,
+    "foodPerDay": 1000,
+    "transportPerDay": 700,
+    "activitiesPerDay": 1000
+  },
+  "munnar": {
+    "flight": 7000,
+    "stayPerNight": 2500,
+    "foodPerDay": 900,
+    "transportPerDay": 900,
+    "activitiesPerDay": 1000
+  },
+  "singapore": {
+    "flight": 30000,
+    "stayPerNight": 9000,
+    "foodPerDay": 3000,
+    "transportPerDay": 1500,
+    "activitiesPerDay": 3000
+  },
+  "bali": {
+    "flight": 28000,
+    "stayPerNight": 5000,
+    "foodPerDay": 2000,
+    "transportPerDay": 1500,
+    "activitiesPerDay": 2500
+  },
+  "dubai": {
+    "flight": 22000,
+    "stayPerNight": 9000,
+    "foodPerDay": 2500,
+    "transportPerDay": 1200,
+    "activitiesPerDay": 3500
+  },
+  "paris": {
+    "flight": 60000,
+    "stayPerNight": 12000,
+    "foodPerDay": 3500,
+    "transportPerDay": 1500,
+    "activitiesPerDay": 3000
+  },
+  "tokyo": {
+    "flight": 55000,
+    "stayPerNight": 8500,
+    "foodPerDay": 3000,
+    "transportPerDay": 1500,
+    "activitiesPerDay": 2500
+  },
+  "maldives": {
+    "flight": 35000,
+    "stayPerNight": 18000,
+    "foodPerDay": 4000,
+    "transportPerDay": 2500,
+    "activitiesPerDay": 4500
+  },
+  "bangkok": {
+    "flight": 18000,
+    "stayPerNight": 3500,
+    "foodPerDay": 1500,
+    "transportPerDay": 800,
+    "activitiesPerDay": 1500
+  },
+  "london": {
+    "flight": 65000,
+    "stayPerNight": 13000,
+    "foodPerDay": 3500,
+    "transportPerDay": 1800,
+    "activitiesPerDay": 3000
+  },
+  "switzerland": {
+    "flight": 55000,
+    "stayPerNight": 15000,
+    "foodPerDay": 4500,
+    "transportPerDay": 2500,
+    "activitiesPerDay": 5000
+  },
+  "rome": {
+    "flight": 45000,
+    "stayPerNight": 11000,
+    "foodPerDay": 3500,
+    "transportPerDay": 1800,
+    "activitiesPerDay": 3000
+  },
+  "santorini": {
+    "flight": 50000,
+    "stayPerNight": 14000,
+    "foodPerDay": 4000,
+    "transportPerDay": 2000,
+    "activitiesPerDay": 3500
+  },
+  "varanasi": {
+    "flight": 5000,
+    "stayPerNight": 2000,
+    "foodPerDay": 800,
+    "transportPerDay": 500,
+    "activitiesPerDay": 700
+  },
+  "kathmandu": {
+    "flight": 12000,
+    "stayPerNight": 3500,
+    "foodPerDay": 1200,
+    "transportPerDay": 800,
+    "activitiesPerDay": 1500
+  }
+}

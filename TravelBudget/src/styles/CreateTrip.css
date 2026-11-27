@@ -1,0 +1,34 @@
+.create-layout { 
+  display: grid; 
+  grid-template-columns: 1.3fr 1fr; 
+  gap: 22px; align-items: start; 
+}
+
+/* ---------- Live cost estimate ---------- */
+.estimate-box {
+  background: linear-gradient(135deg, #f0fdfa, #ccfbf1);
+  border: 1.5px solid var(--primary-soft);
+}
+.estimate-box h3 {
+   margin-bottom: 12px;
+    color: var(--primary-dark);
+   }
+.estimate-row {
+   display: flex; 
+   justify-content: space-between; 
+   padding: 8px 0; 
+   border-bottom: 1px dashed #99f6e4;
+   }
+.estimate-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--primary-dark);
+}
+.estimate-hint {
+   margin-top: 12px; 
+   font-size: 0.85rem; 
+   color: var(--muted); 
+  }

@@ -1,0 +1,60 @@
+.tracker-layout {
+   display: grid;
+    grid-template-columns: 1fr 1.5fr; 
+    gap: 22px;
+     align-items: start; 
+    }
+
+/* ---------- Total box ---------- */
+.total-box {
+  background: linear-gradient(135deg, #0f172a, #115e59);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 22px;
+  margin-bottom: 18px;
+}
+.total-box span { 
+  opacity: 0.8; 
+  font-size: 0.85rem; 
+
+}
+.total-box strong { 
+  display: block; 
+  font-size: 2rem; 
+}
+
+/* ---------- Expense list ---------- */
+.expense-list {
+   display: flex;
+    flex-direction: column;
+     gap: 12px; 
+    }
+
+/* ---------- Expense card ---------- */
+.expense-card {
+  display: flex; 
+  align-items: center;
+   gap: 14px;
+  background: #fff; 
+  padding: 12px 16px;
+  border-radius: 14px;
+   box-shadow: var(--shadow);
+}
+.expense-icon {
+  width: 44px; 
+  height: 44px; 
+  border-radius: 12px;
+  background: var(--primary-soft);
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+   font-size: 1.3rem;
+}
+.expense-info { 
+  flex: 1; 
+  display: flex; 
+  flex-direction: column;
+ }
+.expense-amount { 
+  color: var(--primary-dark); 
+}

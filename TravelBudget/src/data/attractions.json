@@ -1,0 +1,88 @@
+
+{
+  "goa": [
+    { "name": "Baga Beach", "type": "Beach", "price": 0 },
+    { "name": "Fort Aguada", "type": "Heritage", "price": 50 },
+    { "name": "Water Sports Package", "type": "Adventure", "price": 2500 }
+  ],
+  "manali": [
+    { "name": "Solang Valley", "type": "Adventure", "price": 1500 },
+    { "name": "Hadimba Temple", "type": "Heritage", "price": 0 },
+    { "name": "Old Manali Cafes", "type": "Food", "price": 800 }
+  ],
+  "jaipur": [
+    { "name": "Amber Fort", "type": "Heritage", "price": 500 },
+    { "name": "Hawa Mahal", "type": "Heritage", "price": 200 },
+    { "name": "Johari Bazaar", "type": "Shopping", "price": 0 }
+  ],
+  "munnar": [
+    { "name": "Tea Museum", "type": "Culture", "price": 150 },
+    { "name": "Eravikulam National Park", "type": "Nature", "price": 400 },
+    { "name": "Mattupetty Dam", "type": "Nature", "price": 100 }
+  ],
+  "singapore": [
+    { "name": "Gardens by the Bay", "type": "Nature", "price": 2500 },
+    { "name": "Universal Studios", "type": "Adventure", "price": 6500 },
+    { "name": "Hawker Centre Food Trail", "type": "Food", "price": 1200 }
+  ],
+  "bali": [
+    { "name": "Uluwatu Temple", "type": "Heritage", "price": 500 },
+    { "name": "Tegallalang Rice Terraces", "type": "Nature", "price": 300 },
+    { "name": "Surf Lesson", "type": "Adventure", "price": 2500 }
+  ],
+  "dubai": [
+    { "name": "Burj Khalifa Observation Deck", "type": "Sightseeing", "price": 3500 },
+    { "name": "Desert Safari", "type": "Adventure", "price": 4500 },
+    { "name": "Dubai Mall and Fountain Show", "type": "Shopping", "price": 0 }
+  ],
+  "paris": [
+    { "name": "Eiffel Tower", "type": "Sightseeing", "price": 2800 },
+    { "name": "Louvre Museum", "type": "Culture", "price": 1800 },
+    { "name": "Seine River Cruise", "type": "Sightseeing", "price": 1500 }
+  ],
+  "tokyo": [
+    { "name": "Senso-ji Temple", "type": "Heritage", "price": 0 },
+    { "name": "Shibuya Crossing", "type": "City", "price": 0 },
+    { "name": "TeamLab Planets", "type": "Culture", "price": 3000 }
+  ],
+  "maldives": [
+    { "name": "Snorkelling Trip", "type": "Adventure", "price": 4000 },
+    { "name": "Sunset Dolphin Cruise", "type": "Sightseeing", "price": 3500 },
+    { "name": "Sandbank Picnic", "type": "Beach", "price": 5000 }
+  ],
+  "bangkok": [
+    { "name": "Grand Palace", "type": "Heritage", "price": 1500 },
+    { "name": "Chatuchak Market", "type": "Shopping", "price": 0 },
+    { "name": "Chao Phraya Boat Ride", "type": "Sightseeing", "price": 300 }
+  ],
+  "london": [
+    { "name": "Tower of London", "type": "Heritage", "price": 3000 },
+    { "name": "British Museum", "type": "Culture", "price": 0 },
+    { "name": "London Eye", "type": "Sightseeing", "price": 2800 }
+  ],
+  "switzerland": [
+    { "name": "Mount Titlis", "type": "Adventure", "price": 6000 },
+    { "name": "Lake Lucerne", "type": "Nature", "price": 0 },
+    { "name": "Jungfraujoch", "type": "Sightseeing", "price": 12000 }
+  ],
+  "rome": [
+    { "name": "Colosseum", "type": "Heritage", "price": 1800 },
+    { "name": "Trevi Fountain", "type": "Sightseeing", "price": 0 },
+    { "name": "Vatican Museums", "type": "Culture", "price": 2000 }
+  ],
+  "santorini": [
+    { "name": "Oia Sunset Viewpoint", "type": "Sightseeing", "price": 0 },
+    { "name": "Red Beach", "type": "Beach", "price": 0 },
+    { "name": "Boat Tour", "type": "Adventure", "price": 2500 }
+  ],
+  "varanasi": [
+    { "name": "Dashashwamedh Ghat", "type": "Heritage", "price": 0 },
+    { "name": "Ganga Aarti", "type": "Culture", "price": 0 },
+    { "name": "Ganga Boat Ride", "type": "Sightseeing", "price": 500 }
+  ],
+  "kathmandu": [
+    { "name": "Pashupatinath Temple", "type": "Heritage", "price": 1000 },
+    { "name": "Boudhanath Stupa", "type": "Culture", "price": 400 },
+    { "name": "Swayambhunath Temple", "type": "Sightseeing", "price": 200 }
+  ]
+}
